@@ -19,11 +19,11 @@ const resources = {
       },
       "experience": {
         "title": "Experience",
-        "role1": "PHP Developer",
+        "role1": "Web Developer",
         "company1": "GRUPO STI",
         "details1": "Part time • Mar 2025 - Present • Mazatlán, SIN",
         "desc1": "As a former software developer, I have been involved in many projects, ranging from purchasing systems to invoicing systems.",
-        "role2": "PHP Developer",
+        "role2": "Web Developer",
         "company2": "GRUPO STI",
         "details2": "Internship • Nov 2024 - Feb 2025 • Sinaloa, Mexico",
         "desc2": "During this internship, I had the opportunity to develop solutions for a local maritime export company, which allowed me to familiarize myself with tools like Jira, Slack, and Git."
@@ -69,11 +69,11 @@ const resources = {
       },
       "experience": {
         "title": "Experiencia",
-        "role1": "Desarrollador PHP",
+        "role1": "Desarrollador Web",
         "company1": "GRUPO STI",
         "details1": "Medio tiempo • Mar 2025 - Presente • Mazatlán, SIN",
         "desc1": "Como ex desarrollador de software, he estado en muchos proyectos, desde sistemas de compras hasta sistemas de facturación.",
-        "role2": "Desarrollador PHP",
+        "role2": "Desarrollador Web",
         "company2": "GRUPO STI",
         "details2": "Prácticas • Nov 2024 - Feb 2025 • Sinaloa, México",
         "desc2": "En estas prácticas tuve la oportunidad de desarrollar soluciones para una empresa local de exportación marítima lo que me permitió familiarizarme con herramientas como Jira, Slack y Git."
