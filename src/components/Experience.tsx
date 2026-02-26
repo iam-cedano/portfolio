@@ -1,27 +1,30 @@
 import React from 'react';
-
-const experiences = [
-  {
-    title: "Desarrollador PHP",
-    company: "GRUPO STI",
-    details: "Medio tiempo • Mar 2025 - Presente • Mazatlán, SIN",
-    description: "Como ex desarrollador de software, he estado en muchos proyectos, desde sistemas de compras hasta sistemas de facturación.",
-    tags: ["PHP", "jQuery"],
-  },
-  {
-    title: "Desarrollador PHP",
-    company: "GRUPO STI",
-    details: "Prácticas • Nov 2024 - Feb 2025 • Sinaloa, México",
-    description: "En estas prácticas tuve la oportunidad de desarrollar soluciones para una empresa local de exportación marítima lo que me permitió familiarizarme con herramientas como Jira, Slack y Git.",
-    tags: ["PHP", "jQuery"],
-  }
-];
+import { useTranslation } from 'react-i18next';
 
 const Experience: React.FC = () => {
+  const { t } = useTranslation();
+
+  const experiences = [
+    {
+      title: t('experience.role1'),
+      company: t('experience.company1'),
+      details: t('experience.details1'),
+      description: t('experience.desc1'),
+      tags: ["PHP", "jQuery"],
+    },
+    {
+      title: t('experience.role2'),
+      company: t('experience.company2'),
+      details: t('experience.details2'),
+      description: t('experience.desc2'),
+      tags: ["PHP", "jQuery"],
+    }
+  ];
+
   return (
     <section id="experience" className="bg-slate-50 py-20">
       <div className="container mx-auto px-4 max-w-4xl">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-slate-800 mb-12">Experiencia</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-slate-800 mb-12">{t('experience.title')}</h2>
         <div className="space-y-6">
           {experiences.map((exp, index) => (
             <div key={index} className="bg-white p-6 md:p-8 rounded-lg shadow-sm border-l-4 border-blue-600">
